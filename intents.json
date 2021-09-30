@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, how may i assist you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "formality",
+      "patterns": ["how are you?", "how is you?", "you good?"],
+      "responses": [
+        "I'm good, thanks for asking.",
+        "thanks for caring about me, I'm good",
+        "yes, i'm good"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name?", "who are you?"],
+      "responses": [
+        "my name is po.",
+        "I'm po - chatbot",
+        "I'm po."
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["What are you?", "what do you do?"],
+      "responses": ["I'm po, your friend- a chatbot", "I'm a chat bot, i'll help"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
